@@ -76,10 +76,10 @@ TEST (testDiffSize, littleArrays) {
 	Array v2 = generateArray(10, -10, 10);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -98,10 +98,10 @@ TEST (testDiffSize, bigArrays) {
 	Array v2 = generateArray(100000);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -120,76 +120,10 @@ TEST (testDiffSize, veryBigArrays) {
 	Array v2 = generateArray(1000000);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
-	int ans1, ans2, ans3, ans4;
-
-	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
-	ans2 = countAnsAndTime(algo2, v1, v2, "AlgorithmBinSearch");
-	ans3 = countAnsAndTime(algo3, v1, v2, "AlgorithmHashTable");
-	ans4 = countAnsAndTime(algo4, v1, v2, "AlgorithmCountNumbers");
-
-	EXPECT_EQ(sampleAns, ans1);
-	EXPECT_EQ(sampleAns, ans2);
-	EXPECT_EQ(sampleAns, ans3);
-	EXPECT_EQ(sampleAns, ans4);
-}
-
-TEST (testDiffSize, veryBigArrays1) {
-	Array v1 = generateArray(10000000);
-	Array v2 = generateArray(10000000);
-	int sampleAns = countSampleAns(v1, v2);
-
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
-	int ans1, ans2, ans3, ans4;
-
-	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
-	ans2 = countAnsAndTime(algo2, v1, v2, "AlgorithmBinSearch");
-	ans3 = countAnsAndTime(algo3, v1, v2, "AlgorithmHashTable");
-	ans4 = countAnsAndTime(algo4, v1, v2, "AlgorithmCountNumbers");
-
-	EXPECT_EQ(sampleAns, ans1);
-	EXPECT_EQ(sampleAns, ans2);
-	EXPECT_EQ(sampleAns, ans3);
-	EXPECT_EQ(sampleAns, ans4);
-}
-
-TEST (testDiffSize, veryBigArrays2) {
-	Array v1 = generateArray(100000000);
-	Array v2 = generateArray(100000000);
-	int sampleAns = countSampleAns(v1, v2);
-
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
-	int ans1, ans2, ans3, ans4;
-
-	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
-	ans2 = countAnsAndTime(algo2, v1, v2, "AlgorithmBinSearch");
-	ans3 = countAnsAndTime(algo3, v1, v2, "AlgorithmHashTable");
-	ans4 = countAnsAndTime(algo4, v1, v2, "AlgorithmCountNumbers");
-
-	EXPECT_EQ(sampleAns, ans1);
-	EXPECT_EQ(sampleAns, ans2);
-	EXPECT_EQ(sampleAns, ans3);
-	EXPECT_EQ(sampleAns, ans4);
-}
-
-TEST (testDiffSize, veryBigArrays3) {
-	Array v1 = generateArray(1000000000);
-	Array v2 = generateArray(1000000000);
-	int sampleAns = countSampleAns(v1, v2);
-
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -208,10 +142,10 @@ TEST (testOtherThings, disjointArrays) {
 	Array v2 = generateArray(10000, 100, INT_MAX);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -230,10 +164,10 @@ TEST (testOtherThings, diffLens) {
 	Array v2 = generateArray(10000);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -252,10 +186,10 @@ TEST (testOtherThings, bigDiffLens) {
 	Array v2 = generateArray(10);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -274,10 +208,10 @@ TEST (testOtherThings, sameArrays) {
 	Array v2 = v1;
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -296,10 +230,10 @@ TEST (testDiffRange, smallRange) {
 	Array v2 = generateArray(50, 20, 100);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -318,10 +252,10 @@ TEST (testDiffRange, bigRange) {
 	Array v2 = generateArray(50, 0, INT_MAX);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -340,10 +274,10 @@ TEST (testDiffRange, diffRange1) {
 	Array v2 = generateArray(50, 20, 100);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -362,10 +296,10 @@ TEST (testDiffRange, smallRang2) {
 	Array v2 = generateArray(50, -100000, 100000);
 	int sampleAns = countSampleAns(v1, v2);
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -384,10 +318,10 @@ TEST (testIncorrectInput, test1) {
 	Array v2 = {1, 1, 1, 2, 2, 4, 5};
 	int sampleAns = 3;
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
@@ -406,10 +340,10 @@ TEST (testIncorrectInput, test2) {
 	Array v2 = {1, 1};
 	int sampleAns = 1;
 
-	AlgorithmTwoPointers 	algo1;
-	AlgorithmBinSearch 		algo2;
-	AlgorithmHashTable		algo3;
-	AlgorithmCountNumbers	algo4;
+	AlgorithmTwoPointers    algo1;
+	AlgorithmBinSearch 	    algo2;
+	AlgorithmHashTable	    algo3;
+	AlgorithmCountNumbers   algo4;
 	int ans1, ans2, ans3, ans4;
 
 	ans1 = countAnsAndTime(algo1, v1, v2, "AlgorithmTwoPointers");
