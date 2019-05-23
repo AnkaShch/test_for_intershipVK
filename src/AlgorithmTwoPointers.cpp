@@ -2,6 +2,10 @@
 #include "AlgorithmTwoPointers.h"
 
 int AlgorithmTwoPointers::countNumberOfEqualElements(Array &list1, Array &list2) {
+    if (list1.size() == 0 || list2.size() == 0) {
+        return std::max(list1.size(), list2.size());
+    }
+    
     if (list1.size() > list2.size()) {
         list1.swap(list2);
     }

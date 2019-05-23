@@ -2,6 +2,10 @@
 #include "AlgorithmCountNumbers.h"
 
 int AlgorithmCountNumbers::countNumberOfEqualElements(Array &list1, Array &list2) {
+    if (list1.size() == 0 || list2.size() == 0) {
+        return std::max(list1.size(), list2.size());
+    }
+    
     int min1 = list1[0], max1 = list1[0];
     int min2 = list2[0], max2 = list2[0];
     for (size_t i = 0; i < list1.size(); ++i) {
